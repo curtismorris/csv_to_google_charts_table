@@ -12,3 +12,4 @@ if string_to_find in open("out.html").read():
 else:
   # Raise and error so the build will fail
   raise StandardError
+  print "String not found in file"
