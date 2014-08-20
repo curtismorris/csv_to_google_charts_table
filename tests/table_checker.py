@@ -5,9 +5,10 @@
 
 import sys
 
-string_to_find = "Walters"
+string_to_find = "WaltersXx"
 
 if string_to_find in open("out.html").read():
   print "Found"
 else:
-  print"Not Found"
+  # Raise and error so the build will fail
+  raise StandardError
