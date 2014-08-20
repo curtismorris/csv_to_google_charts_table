@@ -10,6 +10,6 @@ string_to_find = "Walters"
 if string_to_find in open("out.html").read():
   print "Found"
 else:
-  # Raise and error so the build will fail
+  # If the string is not found, raise and error so the build will fail
   print "String not found in file"
   raise StandardError
