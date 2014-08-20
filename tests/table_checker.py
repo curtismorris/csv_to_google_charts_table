@@ -5,7 +5,7 @@
 
 import sys
 
-string_to_find = "WaltersXx"
+string_to_find = "Walters"
 
 if string_to_find in open("out.html").read():
   print "Found"
