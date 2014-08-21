@@ -5,7 +5,7 @@
 
 import sys
 
-string_to_find = "Walters"
+string_to_find = "Brinkman"
 
 #out.html is the name of the output file defined by the command line argument (for CI testing)
 if string_to_find in open("out.html").read():
